@@ -1,14 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "employees": [
+    {
+      "id": 0,
+      "name": "Sebastian",
+      "email": "test.com",
+      "password": "test",
+      "designation":"Doctor" 
+    },
+    {
+      "id": 1,
+      "name": "Sebastian",
+      "email": "sebastian@codingthesmartway.com",
+      "password": "test123",
+      "designation":"Patient"
+    },
+    {
+      "id": 2,
+      "name": "Steve",
+      "email": "steve@codingthesmartway.com",
+      "password": "test123",
+      "designation":"Patient"
+    },
+    {
+      "password": "Talha",
+      "id": 3
+    }
+  ]
 }
